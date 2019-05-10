@@ -1535,3 +1535,437 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+Started GET "/" for ::1 at 2019-05-09 11:53:31 +0100
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 19ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-09 11:53:55 +0100
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-05-09 12:01:09 +0100
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 8ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-05-09 12:07:17 +0100
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 10ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-05-09 12:32:08 +0100
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 14ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-05-09 12:36:36 +0100
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 14ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth" for ::1 at 2019-05-09 12:36:41 +0100
+Processing by SessionsController#create as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 616ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-09 12:36:41 +0100
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-05-09 12:38:48 +0100
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:ApplicationController> at /Users/virginiadooley/Development/code/ruby-posting-requests-online-web-pt-092418/app/controllers/application_controller.rb:5)
+Processing by SearchesController#search as HTML
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `authenticate_user!' for #<SearchesController:0x00007f85131b0298>
+Did you mean?  authenticate_user):
+  
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:382:in `block in make_lambda'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:150:in `block (2 levels) in halting_and_conditional'
+actionpack (5.0.7.2) lib/abstract_controller/callbacks.rb:12:in `block (2 levels) in <module:Callbacks>'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:151:in `block in halting_and_conditional'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:454:in `block in call'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:454:in `each'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:454:in `call'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:750:in `_run_process_action_callbacks'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7.2) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.0.7.2) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.0.7.2) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.0.7.2) lib/active_support/notifications.rb:164:in `block in instrument'
+activesupport (5.0.7.2) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.0.7.2) lib/active_support/notifications.rb:164:in `instrument'
+actionpack (5.0.7.2) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.0.7.2) lib/action_controller/metal/params_wrapper.rb:248:in `process_action'
+activerecord (5.0.7.2) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+actionpack (5.0.7.2) lib/abstract_controller/base.rb:126:in `process'
+actionview (5.0.7.2) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.0.7.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (5.0.7.2) lib/action_controller/metal.rb:262:in `dispatch'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:727:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.7.2) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+rack (2.0.7) lib/rack/handler/webrick.rb:86:in `service'
+/Users/virginiadooley/.rvm/rubies/ruby-2.4.5/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/Users/virginiadooley/.rvm/rubies/ruby-2.4.5/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/Users/virginiadooley/.rvm/rubies/ruby-2.4.5/lib/ruby/2.4.0/webrick/server.rb:308:in `block in start_thread'
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.6ms)
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (127.9ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_virginiadooley__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb___106145088893180559_70104763556280 at /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (195.2ms)
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (337.9ms)
+Started GET "/search" for ::1 at 2019-05-09 12:39:01 +0100
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:ApplicationController> at /Users/virginiadooley/Development/code/ruby-posting-requests-online-web-pt-092418/app/controllers/application_controller.rb:5)
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-05-09 12:39:15 +0100
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 635ms (Views: 630.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2019-05-09 12:39:16 +0100
+Started POST "/search" for ::1 at 2019-05-09 12:39:23 +0100
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rcCNgSMrmqJ7fG0lHh9avSEj1hCc9xpv+b0gR89u73ZeGiGBOFgC+YF0wBRGWZgdCzQrbjuIcjBLlw8GaMmm5w==", "zipcode"=>"07716", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 294ms (Views: 25.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for ::1 at 2019-05-09 12:39:34 +0100
+Processing by SearchesController#friends as HTML
+Completed 500 Internal Server Error in 485ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/searches_controller.rb:12:in `friends'
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.7ms)
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (128.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_virginiadooley__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb___106145088893180559_70104775487540 at /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (115.3ms)
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (253.4ms)
+Started GET "/auth" for ::1 at 2019-05-09 12:39:45 +0100
+  
+ArgumentError (Before process_action callback :authenticate_user has not been defined):
+  
+app/controllers/sessions_controller.rb:2:in `<class:SessionsController>'
+app/controllers/sessions_controller.rb:1:in `<top (required)>'
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.2ms)
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (136.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_virginiadooley__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb___106145088893180559_70104780558280 at /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (101.4ms)
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (223.5ms)
+Started GET "/search" for ::1 at 2019-05-09 12:40:20 +0100
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 37ms (Views: 34.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-05-09 12:40:58 +0100
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 28ms (Views: 24.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-05-09 12:46:43 +0100
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 151ms (Views: 141.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-05-09 12:55:26 +0100
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 114ms (Views: 93.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-05-09 12:59:00 +0100
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 57ms (Views: 51.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-09 12:59:02 +0100
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 48ms (Views: 41.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-05-09 12:59:06 +0100
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HuXSp8QSKug/IXLu9a3M8UXkX0/tjtg/f0oOhAtOewrtP36n32Gys8Up39+t6w5Rb/OiMUrxsGDNYCHFrOkymw==", "zipcode"=>"07716", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (30.1ms)
+Completed 200 OK in 348ms (Views: 67.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-05-09 13:01:11 +0100
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:ApplicationController> at /Users/virginiadooley/Development/code/ruby-posting-requests-online-web-pt-092418/app/controllers/application_controller.rb:5)
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-09 13:01:25 +0100
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:ApplicationController> at /Users/virginiadooley/Development/code/ruby-posting-requests-online-web-pt-092418/app/controllers/application_controller.rb:5)
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-05-09 13:04:14 +0100
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-05-09 13:04:19 +0100
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-05-09 13:04:30 +0100
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 15ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-05-09 14:04:15 +0100
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 14ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth" for ::1 at 2019-05-09 14:15:58 +0100
+Processing by SessionsController#create as HTML
+Started GET "/auth" for ::1 at 2019-05-09 14:19:57 +0100
+Completed 500 Internal Server Error in 238407ms (ActiveRecord: 0.0ms)
+
+
+  
+SystemExit (exit):
+  
+app/controllers/sessions_controller.rb:12:in `block in create'
+app/controllers/sessions_controller.rb:5:in `create'
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (347.1ms)
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (83.4ms)
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (14.0ms)
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (702.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (2.2ms)
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (2.2ms)
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (2.2ms)
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.9ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_virginiadooley__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb__1770182983281130848_70210753208020 at /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (398.2ms)
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (3.4ms)
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (3.4ms)
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (713.4ms)
+Started GET "/search" for ::1 at 2019-05-09 14:20:01 +0100
+Started GET "/search" for ::1 at 2019-05-09 14:20:01 +0100
+Processing by SessionsController#create as HTML
+Completed 500 Internal Server Error in 351505ms (ActiveRecord: 0.0ms)
+
+
+  
+SystemExit (exit):
+  
+app/controllers/sessions_controller.rb:16:in `create'
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (367.6ms)
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (85.8ms)
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (15.9ms)
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (736.8ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (7.0ms)
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (3.9ms)
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (2.4ms)
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (3.2ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_virginiadooley__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb__1770182983281130848_70210757644640 at /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (313.9ms)
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (4.1ms)
+  Rendering /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (2.4ms)
+  Rendered /Users/virginiadooley/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (685.5ms)
+Started GET "/search" for ::1 at 2019-05-09 14:25:57 +0100
+Processing by SearchesController#search as HTML
+Processing by SearchesController#search as HTML
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Filter chain halted as :authenticate_user rendered or redirected
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 48ms (ActiveRecord: 0.0ms)
+
+
+Completed 302 Found in 77ms (ActiveRecord: 0.0ms)
+
+
+Completed 302 Found in 38ms (ActiveRecord: 0.0ms)
+
+
